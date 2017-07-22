@@ -6,5 +6,74 @@
   <span>e</span>
   <span class="blink">|</span>
 </div>
-  </div>
-</div>
+
+<style>
+  .logo {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 48px;
+}
+.logo > * {
+  margin-left: -6px;
+  font-weight: 700;
+  display: inline-block;
+  animation-name: appear;
+  animation-duration: .01s;
+  animation-fill-mode: both;
+}
+.logo > *:nth-of-type(1) {
+  animation-delay: 1s
+}
+.logo > *:nth-of-type(2) {
+  animation-delay: 1.4s
+}
+.logo > *:nth-of-type(3) {
+  animation-delay: 1.7s
+}
+.logo > *:nth-of-type(4) {
+  animation-delay: 2s
+}
+.logo > *:nth-of-type(5) {
+  animation-delay: 2.1s
+}
+@keyframes appear {
+  from {
+    font-size: 0em;
+  }
+  to {
+    font-size: 1em;
+  }
+}
+.blink {
+  font-size: 1.5em;
+  font-weight: 400;
+  display: inline-block;
+  visibility: visible;
+  width: auto;
+  animation-name: flash;
+  animation-duration: .8s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* CSS for centering demo */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+</style>

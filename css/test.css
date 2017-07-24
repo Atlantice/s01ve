@@ -1,0 +1,195 @@
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+}
+
+.solve {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 48px;
+}
+.solve > * {
+  margin-left: -6px;
+  font-weight: 700;
+  display: inline-block;
+  animation-name: appear;
+  animation-duration: .01s;
+  animation-fill-mode: both;
+}
+.solve > *:nth-of-type(1) {
+  -webkit-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.solve > *:nth-of-type(2) {
+  -webkit-animation-delay: 1.4s;
+  -ms-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+.solve > *:nth-of-type(3) {
+  -webkit-animation-delay: 1.7s;
+  -ms-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+.solve > *:nth-of-type(4) {
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.solve > *:nth-of-type(5) {
+  -webkit-animation-delay: 2.1s;
+  -ms-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+.solve > *:nth-of-type(6) {
+  -webkit-animation-delay: 2.4s;
+  -ms-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+}
+
+@-webkit-keyframes appear {
+  from {
+    font-size: 0em;
+  }
+  to {
+    font-size: 1em;
+  }
+}
+.cursor {
+  font-size: 1.5em;
+  font-weight: 400;
+  display: inline-block;
+  visibility: visible;
+  width: auto;
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* CSS for centering demo */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.issues {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  color: white;
+}
+
+.issues {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  color: white;
+}
+
+.statement :nth-child(1) {
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+  /*   color: #6b889d; */
+}
+
+.statement :nth-child(2) {
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+  /*   color: #6b889d; */
+}
+
+.statement span {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-animation: animateWord 6s linear infinite 0s;
+  -ms-animation: animateWord 6s linear infinite 0s;
+  animation: animateWord 6s linear infinite 0s;
+}
+
+.issues span:nth-child(1) {
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+  /*   color: #6b889d; */
+}
+.issues span:nth-child(2) {
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+  /*   color: #6b739d; */
+}
+.issues span:nth-child(3) {
+  -webkit-animation-delay: 9s;
+  -ms-animation-delay: 9s;
+  animation-delay: 9s;
+  /*   color: #7a6b9d; */
+}
+.issues span:nth-child(4) {
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+  /*   color: #6b889d; */
+}
+.issues span:nth-child(5) {
+  -webkit-animation-delay: 15s;
+  -ms-animation-delay: 15s;
+  animation-delay: 15s;
+  /*   color: #9b6b9d; */
+}
+
+.issues span {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-animation: animateWord 18s linear infinite 0s;
+  -ms-animation: animateWord 18s linear infinite 0s;
+  animation: animateWord 18s linear infinite 0s;
+}
+
+@-webkit-keyframes animateWord {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,3 +1,7 @@
+.h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .solve {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 48px;
@@ -88,37 +92,38 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 30px;
   display: inline-block;
+  color: white;
 }
 
 .issues span:nth-child(1) {
   -webkit-animation-delay: 3s;
   -ms-animation-delay: 3s;
   animation-delay: 3s;
-  color: #6b889d;
+/*   color: #6b889d; */
 }
 .issues span:nth-child(2) {
   -webkit-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
-  color: #6b739d;
+/*   color: #6b739d; */
 }
 .issues span:nth-child(3) {
   -webkit-animation-delay: 9s;
   -ms-animation-delay: 9s;
   animation-delay: 9s;
-  color: #7a6b9d;
+/*   color: #7a6b9d; */
 }
 .issues span:nth-child(4) {
   -webkit-animation-delay: 12s;
   -ms-animation-delay: 12s;
   animation-delay: 12s;
-  color: #6b889d;
+/*   color: #6b889d; */
 }
 .issues span:nth-child(5) {
   -webkit-animation-delay: 15s;
   -ms-animation-delay: 15s;
   animation-delay: 15s;
-  color: #9b6b9d;
+/*   color: #9b6b9d; */
 }
 
 .issues span {

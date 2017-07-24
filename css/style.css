@@ -1,5 +1,6 @@
-.h2 {
+h2 {
     font-family: 'PT Sans Narrow', sans-serif;
+  color: gray;
 }
 
 .solve {
@@ -92,7 +93,7 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 30px;
   display: inline-block;
-  color: white;
+  color: gray;
 }
 
 .issues span:nth-child(1) {
